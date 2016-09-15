@@ -212,9 +212,11 @@ CGRect IASKCGRectSwap(CGRect rect);
 	[super viewWillAppear:animated];
 }
 
+/*
 - (CGSize)contentSizeForViewInPopover {
     return [[self view] sizeThatFits:CGSizeMake(320, 2000)];
 }
+ */
 
 - (void)viewDidAppear:(BOOL)animated {
 	[super viewDidAppear:animated];
